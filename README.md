@@ -15,18 +15,9 @@
 
 ## Installation
 
-### On Windows:
-
 ```
 python3 -m pip install --upgrade ilstrap
 python3 -m ilstrap.installer --gh KritantaDev/iBootLoader
-```
-
-### On MacOS/Linux
-
-```
-pip3 install --upgrade ilstrap
-ilstrap --gh KritantaDev/iBootLoader
 ```
 
 ---
