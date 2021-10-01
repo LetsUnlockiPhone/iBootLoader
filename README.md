@@ -1,14 +1,8 @@
 # iBootLoader
 
-IDA Loader
+32/64 bit SecureROM/iBoot loader for IDA Pro. Supports IDA Pro 7.0+ on all platforms.
 
-## Disassembler Support:
-
-| Disassembler | Supported |
-|--------------|-----------|
-| IDA 7.0-7.6  | ✓         |
-
-# Filetype Support 
+### Filetype Support 
 
 | File type                | Supported |
 |--------------------------|-----------|
@@ -17,6 +11,7 @@ IDA Loader
 | Encrypted arm32/64 iBoot/iBEC/iBSS | ✓         |
 | SEPROM                   | ✗        |
 
+---
 
 ## Installation
 
@@ -33,9 +28,6 @@ python3 -m ilstrap.installer --gh KritantaDev/iBootLoader
 pip3 install --upgrade ilstrap
 ilstrap --gh KritantaDev/iBootLoader
 ```
----
-
-
 
 ---
 
