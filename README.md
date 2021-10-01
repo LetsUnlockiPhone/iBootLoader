@@ -1,17 +1,8 @@
-# ibootloader
+# iBootLoader
 
-### Installation
+IDA Loader
 
-```
-pip3 install --upgrade ilstrap
-
-# On windows, run this in an administrator command prompt
-python3 -m ilstrap.installer --gh KritantaDev/iBootLoader
-```
-
----
-
-### Disassembler Support:
+## Disassembler Support:
 
 | Disassembler | Supported |
 |--------------|-----------|
@@ -27,11 +18,28 @@ python3 -m ilstrap.installer --gh KritantaDev/iBootLoader
 | SEPROM                   | ✗        |
 
 
+## Installation
+
+### On Windows:
+
+```
+python3 -m pip install --upgrade ilstrap
+python3 -m ilstrap.installer --gh KritantaDev/iBootLoader
+```
+
+### On MacOS/Linux
+
+```
+pip3 install --upgrade ilstrap
+ilstrap --gh KritantaDev/iBootLoader
+```
+---
+
+
 
 ---
 
-this project was heavily inspired by https://github.com/argp/iBoot64helper
+###### Credits:
 
-### why does this exist and why aren't you using [insert other project] instead?
-  
-None of the other projects properly support 32 bit, several are broken, and the code here is (only slightly) cleaner.
+this project was originally inspired by https://github.com/argp/iBoot64helper
+
