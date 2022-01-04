@@ -17,7 +17,7 @@
 
 ```
 python3 -m pip install --upgrade ilstrap
-python3 -m ilstrap.installer --gh KritantaDev/iBootLoader
+python3 -m ilstrap.installer --gh cxnder/iBootLoader
 ```
 
 
@@ -35,7 +35,7 @@ this metadata is included in the ilstrap.json file which ilstrap reads.
 
 ### Manual Installation
 
-(if you dont want to use/dont trust [source is at https://github.com/kritantadev/ilstrap] my lil installer framework, perfectly understandable)
+(if you dont want to use/dont trust [source is at https://github.com/cxnder/ilstrap] my lil installer framework, perfectly understandable)
 
 Steps:
 
